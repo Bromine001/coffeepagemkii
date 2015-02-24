@@ -1,0 +1,215 @@
+/*
+#996633 Dark brown
+#AD855C less dark brown
+#F5F0EB off white brown
+#3D2914 very dark brown
+#CCE6FF sky blue
+*/
+
+#jumbotron {
+    background-color: #f5f0eb;
+    color: #3d3914;
+    position: fixed;
+    height: 135px;
+    max-width: 100%;
+    min-width: 350px;
+    margin-top: -15px;
+    z-index: 1;
+}
+
+#jumbotron h1 {
+    font-family: "Courier New", monospace;
+    font-size: 1.75em;
+    text-align: center;
+    padding: 5px;
+}
+
+#jumbotron a {
+    text-decoration: none;
+    color: #3d3914;
+}
+
+#jumbotron a:hover {
+    color: #f5f0eb;
+    background-color: #3d3914;
+    
+}
+
+    
+
+#border {
+    width: auto;
+    clear: both;
+    height: 100px;
+   
+}
+
+#jumbotron p {
+    font-family: "Courier New", monospace;
+    font-size: .85em;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#menuButton {
+    position: fixed;
+    height: 65px;
+    width: 65px;
+    border: 2px solid #F5F0EB;
+   border-radius: 4px;
+    margin-left: 5px;
+    margin-top: -80px;
+}
+   
+#menu {
+    display: none;
+    background-color: #F5F0EB;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: fixed;
+    border: 2px solid #3d2914;
+    border-radius: 5px;
+    z-index: 2;
+    
+}
+
+#menu a {
+    text-align: center;     
+    border-radius: 5px;
+    height: 39px;
+    width: 140px;
+    display: block;
+    text-decoration: none;
+    color: #3d2914;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    margin-right: 0px;
+    font-family: "Courier New", monospace;
+    font-size: 1.2em;
+    
+}
+
+#menu a:hover {
+    color: #F5F0EB;
+    background-color: #3d2914;
+}
+body {
+    background-color: #f5f0eb;
+}
+.main {
+    margin-top: 165px;
+    position: absolute;
+    color: #3d2914;
+    background-color: #F5F0EB;
+    z-index: -2;
+    max-width: 100%;
+    padding: 6px;
+    clear: both;
+}
+.main h3 {
+    font-size: 1.7em;
+    font-family: "Courier New", monospace;
+    clear: both;
+}
+.main p {
+    font-size: 1em;
+    font-family: "Courier New", monospace;
+}
+
+.main h4 {
+    font-family: "Courier New", monospace;
+    font-size: 1.5em;
+}
+
+.main dt {
+    font-family: "Courier New", monospace;
+    font-size: 1.2em;
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.main dd {
+    font-family: "Courier New", monospace;
+}
+
+.note {
+    font-style: italic;
+    font-size: .85em;
+    
+}
+.noDeco {
+    color: #3d2914;
+}
+
+.imLeft {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin: 6px;
+    clear: left;
+    border: 1px solid #3d2914;
+    border-radius: 3px;
+}
+
+.bigLeft {
+    float: left;
+    max-width: 55%;
+    height: auto;
+    margin: 6px;
+    clear: left;
+    border: 1px solid #3d2914;
+    border-radius: 3px;
+}
+
+.imRight {
+    float: right;
+    max-width: 30%;
+    height: auto;
+    margin: 6px;
+    border: 1px solid #3d2914;
+    border-radius: 3px;
+}
+.middle {
+    max-height: 250px;
+    height: auto;
+    width: auto;
+    max-width: 90%;
+    margin: 6px;
+    border: 1px solid #3d2914;
+    border-radius: 3px;
+}
+
+.seeMore {
+    color: #3d2914;
+    font-size: .5em;
+}
+
+#mocha {
+    clear: left;
+}
+#ph {
+    float: left;
+    max-width: 40%;
+    height: auto;
+    margin: 6px;
+    border: 1px solid #3d2914;
+    border-radius: 3px;
+}
+
+h5 {
+    font-family: "Courier New", monospace;
+    font-size: 1.2em;
+}
+
+.map {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin: 6px;
+    border: 1px solid #3d2914;
+    border-radius: 3px;
+
+}

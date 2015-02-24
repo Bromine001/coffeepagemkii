@@ -1,0 +1,43 @@
+img {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    float: left;
+    margin: 6px;
+}
+
+a {
+    text-decoration: none;
+    color:#3D2914;
+}
+
+a:hover {
+    background: #3D2914;
+    color: #F5F0EB;
+}
+
+div {
+    clear: both;
+}
+
+head {
+    background: #F5F0EB;
+}
+
+body {
+    background:#F5F0EB;
+}
+
+h1 {
+    color: #3D2914;
+    font-family: 'Courier New', Monospace;
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+p {
+    color: #3D2914;
+    font-family: 'Courier New', Monospace;
+    font-size: 1.2em;
+}
