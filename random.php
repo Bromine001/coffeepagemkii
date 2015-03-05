@@ -17,8 +17,9 @@
         It commonly tastes of citrus fruit or flowers. It generally corelates moderatly to the actual pH of that coffee, though coffee is
         actually less acidic than most common beverages. </p>
         <img id ='ph' src= 'cpics/pHchart.png' />
-        <p> As you can see from the above graphic, black coffee has a pH around 5. Tomatoes have about a 4
-        on that same scale, and most sodas have about a 2.5. This means that a tomato has about 10x as much acid as an
+        <p> Here is a chart with the pH levels of some common items.
+        As you can see, black coffee has a pH around 5. Tomatoes have about a 4
+        on that same scale, and most sodas have about a 2.5.  Remember that pH is a logarithmic scale, meaning a tomato has about 10x as much acid as an
         equivalent size cup of black coffee. Six ounces of soda, however, has a whopping 500 times the amount
         of acid that a cup of coffee does. <a class= 'noDeco' href=http://www.coffeeresearch.org/science/sourmain.htm>Here is an article
         that goes into much more detail on acidity in coffee.</a> </p>
@@ -28,7 +29,7 @@
         give you some tools to help you come to your own conclusions, rather than expecting you to take my word for it.
         Here are some good sources, though this is by no means an exhaustive list.</p>
         <p> <a class= 'noDeco' href= 'http://theoatmeal.com/comics/coffee'>This Oatmeal cartoon should be your first stop.</a>
-        It's an funny and also informative infographic.</p>
+        Not only funny but also an informative infographic.</p>
         <p><a class= 'noDeco' href= 'http://www.scaa.org/'>The Specialty Coffee Assocation of America</a> is an industry organization
         that establishes a lot of the standards coffee shops use. If you're not a professional, there
         is a limited amount to interest you at their site, but they have some useful information about

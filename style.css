@@ -1,0 +1,246 @@
+/* off white brown */
+/*very dark brown */
+/*Dark brown */
+/*less dark brown*/
+/*sky blue */
+html {
+  letter-spacing: -1px; }
+
+body {
+  background-color: #F5F0EB; }
+
+h1, h2, h3, h4, h5, h6, p, dd {
+  font-family: "Cutive Mono", monospace; }
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding: 1px;
+  margin-top: -90px;
+  text-shadow: 2px 2px 3px rgba(200, 200, 200, 0.7); }
+
+h2 {
+  font-size: 1.5em;
+  padding: 1.25%; }
+
+h3 {
+  font-size: 2em;
+  clear: both; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.4em; }
+
+p {
+  font-size: 1em; }
+
+select {
+  margin-top: -2%;
+  margin-left: 10%;
+  font-size: 1.25em; }
+
+dt.default {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.2em;
+  clear: both;
+  text-align: left;
+  padding-top: 15px;
+  font-weight: bold; }
+
+#jumbotron {
+  background-color: #F5F0EB;
+  color: #F5F0EB;
+  position: fixed;
+  height: 35px;
+  max-width: 100%;
+  min-width: 350px;
+  margin-top: -10px; }
+  #jumbotron a {
+    text-decoration: none;
+    color: #F5F0EB; }
+    #jumbotron a:hover {
+      color: #CCE6FF;
+      background-color: #3D2914; }
+
+#border {
+  width: auto;
+  /*clear: both;*/
+  height: 100px; }
+
+#menu {
+  display: inline;
+  background-color: #F5F0EB;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  width: 100%;
+  margin-top: 87px; }
+  #menu a {
+    text-align: center;
+    font-size: .85em;
+    border-radius: 2px;
+    min-width: 11%;
+    max-width: 11%;
+    display: inline-block;
+    text-decoration: none;
+    color: #3D2914;
+    padding: .5%;
+    margin-top: 5px;
+    margin-left: 1%;
+    margin-bottom: 5px;
+    margin-right: .5%;
+    font-family: "Cutive Mono", monospace; }
+    #menu a:hover {
+      color: #F5F0EB;
+      background-color: #3D2914; }
+
+.main {
+  margin-top: 81px;
+  position: absolute;
+  color: #3D2914;
+  background-color: #F5F0EB;
+  z-index: -2;
+  max-width: 100%;
+  padding: 6px;
+  padding-top: 45px;
+  clear: both; }
+
+.note {
+  font-style: italic;
+  font-size: .85em; }
+
+.noDeco {
+  color: #3D2914; }
+
+.imLeft {
+  float: left;
+  max-width: 30%;
+  height: auto;
+  margin: 6px;
+  clear: left;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.smLeft {
+  float: left;
+  max-width: 14%;
+  height: auto;
+  margin: 6px;
+  clear: left;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.bigLeft {
+  float: left;
+  width: 55%;
+  height: auto;
+  margin: 6px;
+  clear: left;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.bigRight {
+  float: right;
+  width: 55%;
+  height: auto;
+  margin: 6px;
+  clear: left;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.imRight {
+  float: right;
+  max-width: 30%;
+  height: auto;
+  margin: 6px;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.middle {
+  max-height: 250px;
+  height: auto;
+  width: auto;
+  max-width: 90%;
+  margin: 6px;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.seeMore {
+  color: #3D2914;
+  font-size: 1 em; }
+
+#mocha {
+  clear: left; }
+
+#ph {
+  float: left;
+  max-width: 40%;
+  height: auto;
+  margin: 6px;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.map {
+  float: right;
+  width: 40%;
+  height: auto;
+  margin: 6px;
+  /*border: 1px solid $alpha;
+  border-radius: 3px;*/ }
+
+#bigmap {
+  width: 99%;
+  height: auto;
+  margin: auto;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+.essay {
+  clear: both;
+  width: 100%; }
+
+.buttonList {
+  float: left;
+  width: 16%;
+  margin-left: -3%;
+  padding: 1.5%;
+  min-width: 82px;
+  margin-top: 0%; }
+
+.button {
+  text-align: right;
+  font-size: 1em;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #3D2914;
+  padding: .5%;
+  margin-bottom: 5px;
+  font-family: "Cutive Mono", monospace; }
+  .button:hover {
+    color: #F5F0EB;
+    background-color: #3D2914; }
+
+#exp {
+  width: 82%;
+  min-height: 400px;
+  float: right; }
+  #exp p {
+    font-size: 1.2em;
+    font-family: "Cutive Mono", monospace;
+    padding: 1%;
+    margin: 1%; }
+
+.capcat {
+  width: 100%;
+  height: auto; }
+
+@media (min-width: 320px) and (max-width: 568px) {
+  #menu a {
+    display: none; } }
+@media (min-width: 569px) {
+  #menu select, .selector {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -63,7 +63,7 @@
                 enjoys, but I reccomend at least trying it to anyone. </p>
                 <p>Bad espresso, on the other hand, is bitter, harsh and sharp tasting. Sadly, even in most coffee shops,
                 bad espresso what is served.</p>
-                See the section on
+                <p>See the section on
                 <a class = "noDeco" href = "espresso.php">espresso</a> for more information.</p>
                 </dd>
             <dt class= 'default'>Flat white</dt>

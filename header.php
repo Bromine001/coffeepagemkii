@@ -2,7 +2,8 @@
 
 <html lang="en">
 <head>
-    <link rel='stylesheet' type='text/css' href='stylec.css'> </link> 
+    <link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type='text/css' href='style.css'> </link> 
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src = 'app.js'> </script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -10,8 +11,8 @@
     <title> Coffee Facts</title>
     <div id= 'jumbotron'>
         <img id= "border" src= 'cpics/cband.JPG' />
-        <h1><a href='index.php'>Coffee facts</a></h1>
-        <p>Debunking myths about coffee since 2007</p>
+        <h1><a href='index.php'>Coffee facts </a></h1>
+        
         
     </div>
     <div id = "menu">
