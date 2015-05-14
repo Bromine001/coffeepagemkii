@@ -5,7 +5,8 @@
   $gamma:      #AD855C; /*less dark brown*/
   $delta:      #CCE6FF; /*sky blue */
   $font: 'Cutive Mono', monospace;
-  
+
+/*          general rules  */  
 html
 {
     letter-spacing: -1px;
@@ -13,14 +14,14 @@ html
 body {
     background-color: $background;
 }
-h1, h2, h3, h4, h5, h6, p, dd {
+h1, h2, h3, h4, h5, h6, p, dt, dd {
     font-family: $font;
 }
 h1 {
     font-size: 3.5em;
     text-align: center;
-    padding: 1px ;
-    margin-top: -90px;
+    padding: 1px;
+    margin-top: 12px;
     text-shadow: 2px 2px 3px rgba(200, 200, 200, .7);
 }
 h2 {
@@ -30,14 +31,14 @@ h2 {
     
 }
 h3 {
-    font-size: 2em;
+    font-size: 2.25em;
     
     clear: both;
 }
 
 h4 {
     
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 h5 {
     
@@ -63,14 +64,15 @@ dt.default {
     font-weight: bold;
 }
 
+    /* GENERAL IDs and Classes */
 #jumbotron {
-    background-color: $background;
     color: $background;
     position: fixed;
-    height: 35px;
-    max-width: 100%;
-    min-width: 350px;
-    margin-top: -10px;
+    width: 100%;
+    margin-top: -10px;  
+    background: url('cpics/cband.JPG');
+    background-size: 1200px 100px;
+    height: 100px;
     
     a {
         text-decoration: none;
@@ -85,20 +87,6 @@ dt.default {
  
 }
 
- 
-
-
-
-
-    
-#border {
-    width: auto;
-    /*clear: both;*/
-    height: 100px;
-   
-}
-
-   
 #menu {
     
     display: inline;
@@ -132,9 +120,6 @@ dt.default {
     }  
 }
 
-
-
-
 .main {
     margin-top: 81px;
     position: absolute;
@@ -144,34 +129,46 @@ dt.default {
     max-width: 100%;
     padding: 6px;
     padding-top: 45px;
-    clear: both;
-    
-
+    clear: both;  
 }
-
-
-
-
-
-
-
-
-
 
 .note {
     font-style: italic;
-    font-size: .85em;
-    
+    font-size: .85em; 
 }
+
 .noDeco {
     color: $alpha;
 }
 
+.clear {
+    clear: both;
+}
+
+.seeMore {
+    color: $alpha;
+    font-size: 1.3em;
+    margin: 10px;
+     margin-bottom: 45px;
+    padding: 6px;
+    border-radius: 2px;
+    
+    &:hover
+    {
+        color: $background;
+        background: $alpha;
+        
+    }
+}
+
+
+        /* IMG classes */
 .imLeft {
     float: left;
     max-width: 30%;
     height: auto;
     margin: 6px;
+   
     clear: left;
     border: 1px solid $alpha;
     border-radius: 3px;
@@ -224,11 +221,23 @@ dt.default {
     border: 1px solid $alpha;
     border-radius: 3px;
 }
-
-.seeMore {
-    color: $alpha;
-    font-size: 1 em;
+.map {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 6px;
 }
+
+#bigmap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+    border: 1px solid $alpha;
+    border-radius: 3px;  
+}
+
+
+        /*IDs and classes used in one area */
 
 #mocha {
     clear: left;
@@ -242,30 +251,10 @@ dt.default {
     border-radius: 3px;
 }
 
-
-.map {
-    float: right;
-    width: 40%;
-    height: auto;
-    margin: 6px;
-    /*border: 1px solid $alpha;
-    border-radius: 3px;*/
-}
-#bigmap {
-    width: 99%;
-    height: auto;
-    margin: auto;
-    border: 1px solid $alpha;
-    border-radius: 3px; 
-    
-}
-
 .essay {
     clear: both;
     width: 100%;
-   
 }
-
 
 .buttonList
 {
@@ -276,17 +265,16 @@ dt.default {
     min-width: 82px;
     margin-top: 0%;
 }
+
 .button
 {
     text-align: right;     
     font-size: 1em;
     border-radius: 2px;
-
     text-decoration: none;
     color: $alpha;
     padding: .5%;
     margin-bottom: 5px;
-    
     font-family: $font;
 
     &:hover {

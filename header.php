@@ -10,9 +10,9 @@
     
     <title> Coffee Facts</title>
     <div id= 'jumbotron'>
-        <img id= "border" src= 'cpics/cband.JPG' />
-        <h1><a href='index.php'>Coffee facts </a></h1>
         
+        <h1><a href='index.php'>Coffee facts </a></h1>
+       
         
     </div>
     <div id = "menu">

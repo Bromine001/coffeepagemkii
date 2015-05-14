@@ -3,7 +3,7 @@
 <body>
     <div class = main>  
         <h3> Some methods and tips for brewing coffee</h3>
-        <h4>How much coffee to use</h4>
+        <h4 class = clear>How much coffee to use</h4>
         <img class = 'imLeft' src = 'cpics/brewChart.JPG' title= 'enormously useful but highly confusing chart'/>
         <p> Most people don't put enough ground coffee beans into their coffee. It's an easy mistake to make.
         Not using enough grounds will make your coffee taste very bitter.  Many people associate this with
@@ -20,7 +20,7 @@
         It can vary from anywhere between about 8 seconds for espresso, to steeping for about 3 minutes for French press.
         The time is only a general trend, and will of course also vary based on the exact method you are using.</p>
         
-        <h4>How to grind coffee</h4>
+        <h4 class = clear>How to grind coffee</h4>
         <p><img class= 'imLeft' src='cpics/burrGrinder.jpeg' title= 'Hario burr grinder, highly recommended' /> Burr
         grinders are preffered for grinding coffee
         <a class= 'noDeco' href = 'http://gearpatrol.com/2013/02/25/grind-it-out-10-best-coffee-grinders/'>
@@ -31,30 +31,32 @@
         once they have been ground to a sufficently small size. Once they have reached the edge, the grounds will fall
         into a collection hopper, and be away from any further grinding. Burr grinders are used in all professional
         applications where coffee is ground.  If you're serious about your coffee, the investment in a decent home
-        grade burr grinder is well worth the expense.  Blade grinders mostly work, and are much less expensive. They
-        generate a very irregular particle size, which is less than ideal for any sort of coffee application. 
+        grade burr grinder is well worth the expense.  Blade grinders are much less expensive, but generate a very
+        irregular size particle, which is less than ideal for any sort of coffee application.
         </p>
         
-        <dl>
-            <dt><h4>Methods for making coffee</h4></dt>                                                
-                <dd><p>This is not meant to be exhaustive, but is meant to be representative.</p></dd>
-            <dt><br><b>French Press</b> </dt>
-                <dd> <a class = seeMore href='Press.php'>Photo essay on using a french press.</a> </dd>
-            <dt><br><b>Espresso</b></dt>
-                <dd> <a class = seeMore href='espressoessay.php'>Discourse on why you really shouldn't make espresso.</a> </dd>
-            <dt><br><b>Pourover</b> </dt>
-                <dd> <a class = seeMore href='pourover.php'>Photo essay on using a Hario V-60.</a> </dd>  
-            <dt><br><b>Automatic drip</b></dt>  
-                <dd> <a class = seeMore href='autodrip.php'>Essay about using an automatic drip machine.</a> </dd>
-            <dt><br><b>AeroPress</b> </dt>
-                <dd> <a class = seeMore href='aero.php'>Click here for a photo essay on AeroPress coffee.</a> </dd>
-            <dt><br><b>Camping Colador (or commercial colador)</b> </dt>
-                <dd> <a class = seeMore href='colador.php'>Click here for a photo essay on using a camping Colador</a> </dd>
-            <dt><br><b>Ibrik, Cezve, Briki</b> </dt>
-                <dd> <a class = seeMore href='turkish.php'>Click here for a photo essay on using an Ibrik.</a> </dd>
-            <dt><br><b>Cold brew</b></dt>
-                <dd> <a class = seeMore href='coldbrew.php'>Click here for a photo essay on making cold brewed coffee.</a> </dd>
-        </dl>
+        
+            <h4 class = clear>Details of Coffee brewing methods</h4>                                                
+                
+                <p>Here are several essays we have put together giving detailed instructions about various brewing
+                methods.</p>
+                <p>This is not meant to be exhaustive, but is meant to be representative.</p>
+             <a class = seeMore href='Press.php'>French press</a> 
+             <a class = seeMore href='espressoessay.php'>Espresso</a>
+            
+                 <a class = seeMore href='pourover.php'>Pourover</a>   
+             
+                 <a class = seeMore href='autodrip.php'>Automatic drip</a> 
+         
+                <a class = seeMore href='aero.php'>AeroPress</a> 
+
+                 <a class = seeMore href='colador.php'>Camping Colador</a> 
+
+                 <a class = seeMore href='turkish.php'>Ibrik (Cezve, Briki)</a> 
+            
+                 <a class = seeMore href='coldbrew.php'>Cold Brew</a> 
+       <br><img src= "/cpics/barImg.jpg" class= smLeft>
     </div>
+    
 </body>
 </html>

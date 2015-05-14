@@ -45,21 +45,28 @@
         average quality, but sadly never living up to it's hype. Guatemalas and Costa Ricas are
         often of equal quality, and at a consistantly much lower price.</p>
     
-        <h5>Africa</h5>    
+        <h3>Africa</h3>    
         <h5 class= 'region'>Ethopia</h5>
-        <img class= 'imRight' src='cpics/africab.jpg' />
+        <img class= 'map' src='cpics/africab.jpg' />
         <p>Ethiopia really should be divided into three groups, as there are three distinctive coffee
         growing regions in Ethiopia: Harrar, Yirgacheffe, and Sidamo.</p>
+        <p>Yirgacheffes are known for their strong, wild tasting acidity. Often bringing fruit notes
+        to the cup, Yirgacheffe are very commonly used in small percentages in espresso blends.</p>
+        <p>Harrars are known for a much more "winey" acidity. They are generally complex and spicy,
+        notes of cinnamon, cardamom or smoke are common.</p>
 
         <h5 class= 'region'>Kenya</h5>
         <p>Fruity and sharp, an intense acidity and a weak body are the hallmarks of
         Kenyan coffee. Very popular, often going into espresso blends, the Kenyan crop
         often sells out as soon as it's harvested. Many smaller producers substitute coffee from
         Burundi, which has a very similar flavor profile, but is often less expensive. </p>
+        <p>>Kenya has an interesting grading system for it's coffee. They are sifted through
+        a screen, and graded based on bean size. This doesn't bear much relation to the taste of the
+        resulting coffee, and used to be a more common practice. </p>
        
-        <h5>Asia</h5>
+        <h3>Asia</h3>
         <h5 class= 'region'>Sumatra</h5>
-        <img class= 'map' src='cpics/asiaA.jpg' />
+
         <p>Complex, earthy, rich aroma, full body and weak acidity are the marks of Sumatra coffee.
         The best Sumatra is of the Mandheling variety, which has a unique wet process for depulping the beans.
         Because it has such a strong body, many producers want to roast Sumatra to an extremely dark roast. The
@@ -67,7 +74,8 @@
         with a very strong bittersweet body and virtually no acidity at all. I do not recommend taking Sumatra
         to a dark roast. At a light roast, Sumatra's naturally strong body will leave a cup that tastes like a
         darker roast than it is, while preserving its delicate acidity.</p>
-        
+
+        <img class= 'map' src='cpics/asiaA.jpg' />        
         <h5 class= 'region'>Papua New Guinea</h5>
         <p>Earthy, with a heavy body and a rich aroma, PNG is generally a workhorse coffee. It tends to be very
         stable from season to season, making it a common addition to blends. It doesn't have the complex body

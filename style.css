@@ -3,20 +3,21 @@
 /*Dark brown */
 /*less dark brown*/
 /*sky blue */
+/*          general rules  */
 html {
   letter-spacing: -1px; }
 
 body {
   background-color: #F5F0EB; }
 
-h1, h2, h3, h4, h5, h6, p, dd {
+h1, h2, h3, h4, h5, h6, p, dt, dd {
   font-family: "Cutive Mono", monospace; }
 
 h1 {
   font-size: 3.5em;
   text-align: center;
   padding: 1px;
-  margin-top: -90px;
+  margin-top: 12px;
   text-shadow: 2px 2px 3px rgba(200, 200, 200, 0.7); }
 
 h2 {
@@ -24,11 +25,11 @@ h2 {
   padding: 1.25%; }
 
 h3 {
-  font-size: 2em;
+  font-size: 2.25em;
   clear: both; }
 
 h4 {
-  font-size: 1.5em; }
+  font-size: 1.75em; }
 
 h5 {
   font-size: 1.4em; }
@@ -49,25 +50,21 @@ dt.default {
   padding-top: 15px;
   font-weight: bold; }
 
+/* GENERAL IDs and Classes */
 #jumbotron {
-  background-color: #F5F0EB;
   color: #F5F0EB;
   position: fixed;
-  height: 35px;
-  max-width: 100%;
-  min-width: 350px;
-  margin-top: -10px; }
+  width: 100%;
+  margin-top: -10px;
+  background: url("cpics/cband.JPG");
+  background-size: 1200px 100px;
+  height: 100px; }
   #jumbotron a {
     text-decoration: none;
     color: #F5F0EB; }
     #jumbotron a:hover {
       color: #CCE6FF;
       background-color: #3D2914; }
-
-#border {
-  width: auto;
-  /*clear: both;*/
-  height: 100px; }
 
 #menu {
   display: inline;
@@ -114,6 +111,21 @@ dt.default {
 .noDeco {
   color: #3D2914; }
 
+.clear {
+  clear: both; }
+
+.seeMore {
+  color: #3D2914;
+  font-size: 1.3em;
+  margin: 10px;
+  margin-bottom: 45px;
+  padding: 6px;
+  border-radius: 2px; }
+  .seeMore:hover {
+    color: #F5F0EB;
+    background: #3D2914; }
+
+/* IMG classes */
 .imLeft {
   float: left;
   max-width: 30%;
@@ -167,10 +179,20 @@ dt.default {
   border: 1px solid #3D2914;
   border-radius: 3px; }
 
-.seeMore {
-  color: #3D2914;
-  font-size: 1 em; }
+.map {
+  float: right;
+  width: 40%;
+  height: auto;
+  margin: 6px; }
 
+#bigmap {
+  width: 99%;
+  height: auto;
+  margin: auto;
+  border: 1px solid #3D2914;
+  border-radius: 3px; }
+
+/*IDs and classes used in one area */
 #mocha {
   clear: left; }
 
@@ -179,21 +201,6 @@ dt.default {
   max-width: 40%;
   height: auto;
   margin: 6px;
-  border: 1px solid #3D2914;
-  border-radius: 3px; }
-
-.map {
-  float: right;
-  width: 40%;
-  height: auto;
-  margin: 6px;
-  /*border: 1px solid $alpha;
-  border-radius: 3px;*/ }
-
-#bigmap {
-  width: 99%;
-  height: auto;
-  margin: auto;
   border: 1px solid #3D2914;
   border-radius: 3px; }
 

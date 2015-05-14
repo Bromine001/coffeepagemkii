@@ -51,6 +51,8 @@
         processed</a> An article with pretty good information and photos about coffee planting, harvesting,
         and processing. I would like to talk about that more, but it is really beyond the scope of this web page.
         </p>
+        <p><a class= 'noDeco' href='http://www.stlouisrestaurants.com/'>St. Louis resturants</a> Nothing to do with coffee,
+        but a good website about the resturants in my home town.</p>
     </div>
 </body>
 </html>
